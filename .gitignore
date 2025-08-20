@@ -1,16 +1,19 @@
 __pycache__/
 *.py[cod]
-*.so
+*.ipynb_checkpoints
+.DS_Store
 
 .venv/
 .env
 
+db/*.db
+
 data/raw/*
 data/interim/*
 data/processed/*
+data/exports/*
+
 !data/raw/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep
-
-.ipynb_checkpoints/
-.DS_Store
+!data/exports/.gitkeep
